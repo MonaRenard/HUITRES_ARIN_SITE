@@ -12,10 +12,10 @@
 	height: 200px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   #logoheader {
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
     }
 }
 
