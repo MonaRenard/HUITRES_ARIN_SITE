@@ -1,0 +1,27 @@
+    /* slider */
+
+#slider { 
+    width: 100%; 
+    max-width: 1920px;
+    overflow: scroll;
+} 
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: center;
+  animation: 15s slidy infinite;
+}
+#slider figure img { 
+    width: 20%; 
+    height: auto; 
+    float: left; 
+}
+@media (max-width: 960px) {
+  #slider {
+      display: none;
+    }
+}

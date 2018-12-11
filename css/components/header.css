@@ -1,0 +1,68 @@
+    /* header */
+
+.header{
+	margin: 0px;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+#logoheader {
+    margin: -37px 0px 0px 0px;
+	width: 250px;
+	height: 250px;
+}
+
+@media (max-width: 600px) {
+  #logoheader {
+      width: 200px;
+      height: 200px;
+    }
+}
+
+    /* header logo shop */
+#headersocial {
+	margin: 10px 0px 0px 0px;
+	text-align: right;
+}
+#headersocial li {
+	display: inline;
+	list-style: none;
+}
+#headersocial a {
+	display:inline-block;
+	margin: 0 10px;
+}
+
+ /* nav */
+#nav {
+	padding: 0; margin: -10px -10px;
+	text-align: center;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+@media (max-width: 1095px) {
+  #nav {
+      margin: 0 150px;
+    }
+}
+@media (max-width: 898px) {
+  #nav {
+      margin: 0 45px;
+    }
+}
+@media (max-width: 695px) {
+  #nav {
+      margin: 0 1px;
+    }
+}
+@media (max-width: 600px) {
+  #nav {
+      display: none;
+    }
+}

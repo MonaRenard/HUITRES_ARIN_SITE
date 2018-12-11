@@ -1,0 +1,83 @@
+    /* link css&fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,700');
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/container.css");
+@import url("components/footer.css");
+@import url("components/header.css");
+@import url("components/slider.css");
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  90% { left: -300%; }
+  100% { left: 0%; } 
+}
+
+/* color and font */
+
+    /* footer */
+body {
+    color: white;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 13px;
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+    /* card title */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0.15rem;
+}
+
+    /* card text */
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    color : #000000;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+    /* text-nav */
+h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.15rem;
+    color : #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+   /* link header */
+a {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.15rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    color: #EF7900;
+}
+
+   /* link footer */
+a2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.30rem;
+    color: #ffffff;
+}
+a2:hover {
+    color: #EF7900;
+}
